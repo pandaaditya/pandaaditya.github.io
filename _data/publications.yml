@@ -1,0 +1,92 @@
+main:
+
+  - title: Knowledge Guided Transformer Network for Compositional Zero-shot Learning
+    authors: <strong><a href="https://www.isical.ac.in/~aditya_r/">Aditya Panda</a></strong>, <a href="https://www.isical.ac.in/~dipti/">Dipti Prasad Mukherjee</a>
+#    conference_short: MICCAI
+    conference: ACM Transactions on Multimedia Computing, Communications and Applications, 2024.
+    pdf: https://dl.acm.org/doi/10.1145/3687129
+#    code: https://github.com/MrGiovanni/ContinualLearning
+    bibtex: ./assets/bib/acm_3687129.bib
+    image: ./assets/img/kgt_net.png
+#    notes: Early Accept
+
+  - title: Compositional Zero-Shot Learning using Multi-Branch Graph Convolution and Cross-layer Knowledge Sharing
+    authors: <strong><a href="https://www.isical.ac.in/~aditya_r/">Aditya Panda</a></strong>, <a href="https://www.isical.ac.in/~dipti/">Dipti Prasad Mukherjee</a>
+#    conference_short: MICCAI
+    conference: Pattern Recognition, 2024.
+    pdf: https://www.sciencedirect.com/science/article/pii/S0031320323006143
+#    code: https://github.com/MrGiovanni/ContinualLearning
+    bibtex: ./assets/bib/S0031320323006143.bib
+    image: ./assets/img/graph_czsl.png
+
+  - title: Isolating Features of Object and Its State for Compositional Zero-Shot Learning
+    authors: <a href="https://www.isical.ac.in/~aditya_r/">Aditya Panda</a>, <a href="http://home.iitj.ac.in/~bikash/">Bikash Santra</a>, <a href="https://www.isical.ac.in/~dipti/">Dipti Prasad Mukherjee</a>
+#    conference_short: MICCAI
+    conference: IEEE Transactions on Emerging Topics in Computational Intelligences, 2024.
+    pdf: https://ieeexplore.ieee.org/abstract/document/10015197
+#    code: https://github.com/MrGiovanni/ContinualLearning
+    bibtex: ./assets/bib/IEEE Xplore Citation BibTeX Download 2024.8.28.18.21.13.bib
+    image: ./assets/img/secoNet.png
+#    notes: Early Accept
+
+  - title: Bi-Modal Compositional Network for Feature Disentanglement
+    authors: <a href="https://www.isical.ac.in/~aditya_r/">Aditya Panda</a>, <a href="http://home.iitj.ac.in/~bikash/">Bikash Santra</a>, <a href="https://www.isical.ac.in/~dipti/">Dipti Prasad Mukherjee</a>
+#    conference_short: MICCAI
+    conference: IEEE International Conference on Image Processing (ICIP), 2022.
+    pdf: https://ieeexplore.ieee.org/abstract/document/9897457
+#    code: https://github.com/MrGiovanni/ContinualLearning
+    bibtex: ./assets/bib/IEEE Xplore Citation BibTeX Download 2024.8.28.18.27.57.bib
+    image: ./assets/img/bicompnet.png
+#    notes: Early Accept
+
+  - title: Monocular 3D human pose estimation by multiple hypothesis prediction and joint angle supervision
+    authors: <a href="https://www.isical.ac.in/~aditya_r/">Aditya Panda</a>, <a href="https://www.isical.ac.in/~dipti/">Dipti Prasad Mukherjee</a>
+#    conference_short: MICCAI
+    conference:  IEEE International Conference on Image Processing (ICIP), 2021
+    pdf: https://ieeexplore.ieee.org/abstract/document/9506722
+#    code: https://github.com/MrGiovanni/ContinualLearning
+    bibtex: ./assets/bib/IEEE Xplore Citation BibTeX Download 2024.8.28.18.30.41.bib
+    image: ./assets/img/monocular.jpg
+#    notes: Early Accept
+
+
+
+
+
+  - title: Particle swarm optimization with a modified learning strategy and blending crossover
+    authors: <a href="https://www.isical.ac.in/~aditya_r/">Aditya Panda</a>, <a href="https://ecis.knu.ac.kr/">Rammohan Mallipedd</a>,<a href="https://www.isical.ac.in/~swagatam.das/">Swagatam Das</a>.
+#    conference_short: MICCAI
+    conference:  IEEE Symposium Series on Computational Intelligence (SSCI), 2017
+    pdf: https://ieeexplore.ieee.org/abstract/document/8285235
+#    code: https://github.com/MrGiovanni/ContinualLearning
+    bibtex: ./assets/bib/IEEE Xplore Citation BibTeX Download 2024.8.28.18.33.5.bib
+#    image: ./assets/img/monocular.jpg
+#    notes: Early Accept
+
+
+
+  - title: Static learning particle swarm optimization with enhanced exploration and exploitation using adaptive swarm size
+    authors: <a href="https://www.isical.ac.in/~aditya_r/">Aditya Panda</a>,         <a href="">Srijan Ghoshal</a>,
+        <a href="https://scholar.google.co.in/citations?user=s1F23CAAAAAJ&hl=en">Amit Konar</a>,
+        <a href="">Bonny Banerjee</a>,
+        <a href="">Atulya K Nagar</a>.
+#    conference_short: MICCAI
+    conference:   IEEE Congress on Evolutionary Computation (CEC), 2016
+    pdf: https://ieeexplore.ieee.org/abstract/document/7744016
+#    code: https://github.com/MrGiovanni/ContinualLearning
+    bibtex: ./assets/bib/IEEE Xplore Citation BibTeX Download 2024.8.28.18.39.1.bib
+#    image: ./assets/img/monocular.jpg
+#    notes: Early Accept
+
+
+
+#  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
+#    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
+#    conference_short: CVPR
+#    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
+#    pdf: https://arxiv.org/pdf/2002.10211.pdf
+#    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+#    page: https://class-il.mpi-inf.mpg.de/mnemonics/
+#    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+#    notes: Oral Presentation
+#    image: ./assets/img/teaser_example.png
