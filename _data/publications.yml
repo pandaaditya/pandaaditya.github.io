@@ -7,7 +7,7 @@ main:
     pdf: https://dl.acm.org/doi/10.1145/3687129
 #    code: https://github.com/MrGiovanni/ContinualLearning
     bibtex: ./assets/bib/acm_3687129.bib
-    image: ./assets/img/kgt_net.png
+    image: ./assets/img/website_summary_KGT_Net.png
 #    notes: Early Accept
 
   - title: Compositional Zero-Shot Learning using Multi-Branch Graph Convolution and Cross-layer Knowledge Sharing
