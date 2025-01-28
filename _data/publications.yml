@@ -46,7 +46,7 @@ main:
     pdf: https://ieeexplore.ieee.org/abstract/document/9506722
 #    code: https://github.com/MrGiovanni/ContinualLearning
     bibtex: ./assets/bib/IEEE Xplore Citation BibTeX Download 2024.8.28.18.30.41.bib
-    image: ./assets/img/website_summary_mono.jpg
+    image: ./assets/img/website_summary_mono.png
 #    notes: Early Accept
 
 
