@@ -1,26 +1,15 @@
-(## Services)
-()
-(<h4 style="margin:0 10px 0;">Conference Reviewers</h4>)
+<h1 id="services"></h1>
 
-()
-(<ul style="margin:0 0 5px;">)
+<h2 style="margin: 60px 0px 10px;">Services</h2>
 
-(  <li><a href="http://cvpr2023.thecvf.com/"><autocolor>IEEE/CVF Conference on Computer Vision and Pattern Recognition &#40;CVPR&#41; 2021-2023</autocolor></a></li>)
 
-(  <li><a href="http://iccv2021.thecvf.com/"><autocolor>IEEE/CVF International Conference on Computer Vision &#40;ICCV&#41; 2021</autocolor></a></li>)
-
-(  <li><a href="https://eccv2022.ecva.net/"><autocolor>European Conference on Computer Vision &#40;ECCV&#41; 2022</autocolor></a></li>)
-
-(</ul>)
-
-()
-(<h4 style="margin:0 10px 0;">Journal Reviewers</h4>)
-
-()
-(<ul style="margin:0 0 20px;">)
-
-(  <li><a href="https://www.computer.org/csdl/journal/tp"><autocolor>IEEE Transactions on Pattern Analysis and Machine Intelligence &#40;TPAMI&#41;</autocolor></a></li>)
-
-(  <li><a href="https://www.springer.com/journal/11263"><autocolor>International Journal of Computer Vision &#40;IJCV&#41;</autocolor></a></li>)
-
-(</ul>)
+<ul style="margin:0 0 5px;">
+  <li>Worked as anonymous <strong>reviewer/sub-reviewer</strong> for the following journals: IEEE TPAMI, IEEE TNNLS, IEEE TIP, IEEE TETCI, ACM Trans. on Multimedia Computing Communications and                     Applications and IEEE ICIP conference</li>
+  <li>Delivered <strong>lectures</strong> in miscellaneous deep-learning based topics in the <a href="https://sites.google.com/view/wsdl2025">Winter School on
+                    Deep Learning</a>, for the years 2022, 2023 and 2024. Also delivered lectures in deep learning and machine learning based topics in different summer and winter schools organised
+                    by <a href="https://www.ideas-tih.org/">Technology Innovation Hub, Indian Statistical Institute (ISI) </a> and also in
+                    <a href="https://www.isical.ac.in/~caiml/">Center for AI & ML (CAIML), ISI</a>.</li>
+ <li> Performed the duty of <strong>Teaching Assistant</strong> for the Computing for Data Science subject for the students of the <a href="https://www.isical.ac.in/~pgdba/Eligibility_Selection_Criteria.html">PGDBA course in ISI, Kolkata </a> for the years 2022, 2023, 2024.</li>
+                  <li> <strong>Supervised</strong> a group of participants in the <a href="https://www.isical.ac.in/~ecsu/?q=node/124">Summer School</a>  organised by the <a href="https://www.isical.ac.in/~ecsu/"> Electronics and Communication Sciences Unit, ISI Kolkata </a> in the year 2022, 2023 and 2024. </li>
+                  
+</ul>
