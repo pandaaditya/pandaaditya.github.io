@@ -4,9 +4,10 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at the Indian Statistical Institute, Kolkata
-
+I am currently in my final year as a doctoral student at the <a href="https://www.isical.ac.in/">Indian Statistical Institute</a>. Over the past few years, I have primarily focused on data-efficient deep learning approaches. My research interest has been into various aspects of Compositional Zero-Shot Learning (CZSL), which aims to recognize new state-object compositions from limited training data. Before pursuing my Ph.D., I earned an M.Tech degree in Computer Science from ISI, Kolkata, and prior to that, I completed my undergraduate studies in Electronics and Tele-Communication Engineering from <a href="https://jadavpuruniversity.in/"> Jadavpur University, Kolkata.</a> 
 ## Research Interests
+
+
 
 - **Computer Vision:** compositional generalization, zero-shot learning, image recognition
 
