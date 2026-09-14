@@ -1,135 +1,269 @@
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 400;
-  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAUi-qNiXg7eU0.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+/* ---------------------------------------------------------------
+   Aditya Panda — academic homepage
+   Palette:  ink #1c1c1c · muted #5f6b66 · accent #852039 · hover #f09228
+   Type:     Lato (Google Fonts)
+   --------------------------------------------------------------- */
+
+:root {
+  --ink: #1c1c1c;
+  --muted: #5f6b66;
+  --hairline: #e3e6e4;
+  --accent: #852039;
+  --accent-hover: #f09228;
+  --measure: 800px;
 }
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 400;
-  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAXC-qNiXg7Q.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 700;
-  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_FQftx9897sxZ.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 700;
-  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_Gwftx9897g.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  padding: 0 20px 64px;
+  background: #fff;
+  color: var(--ink);
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
 }
 
 a {
-  color: #852039;
+  color: var(--accent);
   text-decoration: none;
 }
 
 a:focus,
 a:hover {
-  color: #f09228;
+  color: var(--accent-hover);
   text-decoration: none;
 }
 
-body,
-td,
-th,
-tr,
-p,
-a {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+p { text-wrap: pretty; }
+
+.wrap {
+  max-width: var(--measure);
+  margin: 0 auto;
 }
 
-strong {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
-}
+/* ---------- intro ---------- */
 
-h2 {
-  margin: 0;
-  font-weight: normal;
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 22px;
-}
-
-.papertitle {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: 700;
+.intro {
+  display: grid;
+  grid-template-columns: 1fr 240px;
+  gap: 40px;
+  align-items: center;
+  padding: 56px 0 8px;
 }
 
 .name {
-  padding-top: 20px;
+  margin: 0 0 16px;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: 0.01em;
+}
+
+.bio {
   margin: 0;
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 32px;
+  text-align: justify;
 }
 
-.one {
-  width: 160px;
-  height: 160px;
-  position: relative;
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  margin-top: 20px;
+  align-items: baseline;
 }
 
-.two {
-  width: 160px;
-  height: 160px;
-  position: absolute;
-  transition: opacity .2s ease-in-out;
-  -moz-transition: opacity .2s ease-in-out;
-  -webkit-transition: opacity .2s ease-in-out;
+.links .sep { color: #c8cdca; }
+
+.portrait {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
-.fade {
-  transition: opacity .2s ease-in-out;
-  -moz-transition: opacity .2s ease-in-out;
-  -webkit-transition: opacity .2s ease-in-out;
+/* ---------- sections ---------- */
+
+.section { margin-top: 52px; }
+
+.section > h2 {
+  margin: 0 0 6px;
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
 }
 
-span.highlight {
-  background-color: #fffefc;
+/* ---------- publications ---------- */
+
+.pub-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.pub {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 28px;
+  padding: 20px 0;
+}
+
+.pub.no-figure { grid-template-columns: 160px 1fr; }
+
+.pub figure {
+  margin: 0;
+  align-self: start;
+}
+
+.pub figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #fafafa;
+}
+
+.pub-title {
+  display: inline-block;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.4;
+}
+
+.pub-title:hover { color: var(--accent-hover); }
+
+.authors {
+  margin: 6px 0 2px;
+  color: var(--muted);
+}
+
+.authors a { color: var(--accent); }
+
+.venue {
+  margin: 0;
+  color: var(--muted);
+  font-style: italic;
+}
+
+.summary {
+  margin: 10px 0 0;
+  text-align: justify;
+  color: #3c4441;
+}
+
+.refs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  margin-top: 10px;
+  font-size: 14px;
+  align-items: baseline;
+}
+
+.refs .sep { color: #c8cdca; }
+
+/* ---------- academic services ---------- */
+
+.services {
+  display: flex;
+  flex-direction: column;
+}
+
+.service {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 28px;
+  padding: 16px 0;
+}
+
+.service h3 {
+  margin: 2px 0 0;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.service p {
+  margin: 0;
+  text-align: justify;
+}
+
+/* ---------- footer + background art ---------- */
+
+.credit {
+  margin: 0;
+  padding-top: 12px;
+  text-align: right;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.band {
+  margin-top: 48px;
+  pointer-events: none;
+}
+
+.band svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  opacity: 0.34;
+}
+
+.deco {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 200px;
+  padding: 40px 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 90px;
+  pointer-events: none;
+}
+
+.deco.left { left: 0; }
+.deco.right { right: 0; }
+
+.deco svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  opacity: 0.3;
+}
+
+@media (max-width: 1240px) {
+  .deco { display: none; }
+}
+
+/* ---------- narrow screens ---------- */
+
+@media (max-width: 720px) {
+  .intro {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding-top: 36px;
+    text-align: left;
+  }
+  .intro .portrait { max-width: 180px; }
+  .name { text-align: left; }
+  .pub,
+  .pub.no-figure,
+  .service {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .pub figure { max-width: 200px; }
+  .bio,
+  .summary,
+  .service p { text-align: left; }
 }
